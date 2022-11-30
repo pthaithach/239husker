@@ -1,0 +1,38 @@
+{
+    "data": {
+        "store"     : "Husker Nails & Spa",
+        "slug"      : "Husker-nails-spa",
+        "phone"     : "(402) 261-5244",
+        "email"     : "thuydungsinh@yahoo.com",
+        "address"   : "4900 N 26th St suite 102 Lincoln, Nebraska 68521",
+        "state"     : "Nebraska 68521",
+        "ward"      : "Lincoln",
+        "time_1"    : "Mon- Fri: 10:00 AM - 07:30 PM",
+        "time_2"    : "Sat: 09:00 AM - 06:30 PM",
+        "time_3"    : "Sun: 11:00 AM - 05:00 PM"
+        
+    },
+    "url":  {
+        "facebook"  :   "https://www.facebook.com/HuskerNailsSpa",
+        "instagram" :   "https://www.instagram.com/huskernailspa_4900",
+        "google"    :   "https://goo.gl/maps/KJCTjVxQaRjC9QmK9",
+        "booking"   :   "https://www.lldtek.com/salon/appt/NTA4ODh8aHVza2VyNDAyfE5FXzA4MjIwfGNmYzhmNWMxM2M0MDlmZjU0NDNmOWExMGE0MDBiZWUx",
+        "maps"      :   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.5331671098907!2d-96.68538334856467!3d40.86017217921468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796b947237301e7%3A0x6cce4cf7f8e1449!2sHusker%20Nails%20%26%20Spa!5e0!3m2!1sen!2s!4v1669712882885!5m2!1sen!2s"
+    },
+    "color": {
+        "primary"               :   "#971319",
+        "primary_light"         :   "#EEECE3",
+        "primary_hover"         :   "#fdd4d1",
+        "secondary"             :   "#fff991",
+        "secondary_hover"       :   "#fff886",
+        "text_primary"          :   "#FFFFFF",
+        "text_primary_hover"    :   "#FFFFFF",
+        "text_secondary"        :   "#FFFFFF",
+        "text_secondary_hover"  :   "#FFFFFF",
+        "text_title"            :   "#429D64",
+        "text_title_hover"      :   "#90C73E"
+    },
+    "debug":        "on",
+    "path_image":   "img/",
+    "domain":       "https://pthaithach.github.io/239HuskerNailsSpa/"
+}

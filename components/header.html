@@ -1,0 +1,71 @@
+<div id="mySidenav" class="sidenav">
+    <a id="side-nav-close" onclick="closeNav()">&times;</a>
+
+    <div class="sidenav-content">
+
+        <a class="navbar-brand align-items-center" href="index.html"
+           style="padding-left: 0px;padding-right: 70px;padding-bottom: 30px">
+            <img src="#" alt="#" pic_src="logo-gold.png" path>
+        </a>
+        <h5>Address</h5>
+        <p>{address}</p>
+        <h5>Tel</h5>
+        <a href="tel:+16177497752"><p>{phone}</p></a>
+        <h5>Email</h5>
+        <p>{email}</p>
+        <h5>Hours</h5>
+        <span>
+            {time_1}<br>
+            {time_2}<br>
+            {time_3}<br>
+            
+        </span>
+        
+    </div>
+    
+</div>
+<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <!--mobile logo -->
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="index.html">
+            <img src="#" alt="#" pic_src="logo-gold.png" path>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu" onclick="openNav()"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                </div>
+            </ul>
+
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="index.html">
+                <img src="#" alt="#" pic_src="logo-gold.png" path>
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Services</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="reservation.html">Contact</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
